@@ -53,8 +53,13 @@ echo '<!DOCTYPE html>
 	}
 	for ($i = $_GET["min-x"]; $i < $_GET["max-x"]+1; $i++){
 		echo '<tr><td>' . $i;
+		for ($k = $_GET["min-y"]; $k < $_GET["max-y"]+1; $k++){		
+		echo '<td>' . $i*$k;
+		}
 
 	}
+	
+	
 	
 
 ?>
