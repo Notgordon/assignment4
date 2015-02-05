@@ -1,3 +1,7 @@
 Start: Mon, 2 Feb 2015 18:30:26 -0800
 End: Mon, 2 Feb 2015 21:54:00 -0800
 Tasks: Started assignment and created the multtable but haven't filled it yet.
+*On Tuesday I solved Multtable but it took fifteen minutes so I didn't record it on the log. 
+Start: Wed, 4 Feb 2015 20:30:26 -0800
+End: Wed, 4 Feb 2015 22:01:00 -0800
+Tasks: Started to work on loopback.php. Had trouble so posted on discussions.
