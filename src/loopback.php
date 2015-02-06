@@ -7,24 +7,40 @@ echo '<!DOCTYPE html>
 </head>
 <body>';
 ?>
+
+
+<form method="post">
+x: <input type = "text" name="x">
+y: <input type = "text" name="y">
+z: <input type = "text" name="z">
+<input type = "submit">
+
+</form>
+
 <?php
 $p = array();
-$type = 'GET OR POST';
+$type = undefined;
 	
-	
-
-$myJSON = array('type'=>$type	
-);
-
-foreach($_GET as $key => $value) {
-	$myJSON[] = $key . ' : ' . $value;
+if ($_GET)
+{
+	$type = "GET";
+	$keyarray=$_GET;
+} else {
+	$type = "POST";
+	$keyarray = $_POST;
+}
+foreach($keyarray as $key => $value) {
+	$p[] = $key . ' : ' . $value;
 	}
 
 
+$myJSON = array('type'=>$type, 'parameters'=>$p
+);
 
 echo json_encode($myJSON);
 
 ?>
+
 <!-- Use a for each loop to add variables to the JSON object -->
 
 </body>
