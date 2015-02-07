@@ -10,3 +10,12 @@ Tasks: Started to work on loopback.php. Had trouble so posted on discussions.
 Start: Thurs, 5 Feb 2015 21:30:26 -0800
 End: Thurs, 5 Feb 2015 22:41:50 -0800
 Tasks: Completed loopback. 
+
+Start: Fri, 6 Feb 2015 13:15:31 -0800
+End: Fri, 6 Feb 2015 15:10:23 -0800
+Tasks: Started login.php
+
+
+Start: Fri, 6 Feb 2015 18:10:31 -0800
+End: Fri, 6 Feb 2015 21:11:00 -0800
+Tasks: Attampted to reset session counter but failed.

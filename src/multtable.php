@@ -37,10 +37,15 @@ echo '<!DOCTYPE html>
 
 </table>
 <?php
-	$run;
+	$run === true;
 	if( $_GET["max-x"] < $_GET["min-x"]){
-	echo "min of multiplicand is larger than max!";
-	$run=false;
+		echo "min of multiplicand is larger than max!";
+		$run=false;
+	}
+	
+	if( $_GET["max-y"] < $_GET["min-y"]){
+		echo "min of multiplier is larger than max!";
+		$run=false;
 	}
 ?>
 <p><h1> Table of Output </h1>
@@ -48,15 +53,18 @@ echo '<!DOCTYPE html>
 <table border ="1">
 <tr><td>
 <?php
-	for($j = $_GET["min-y"]; $j < $_GET["max-y"]+1; $j++){
-		echo '<td>' . $j;
-	}
-	for ($i = $_GET["min-x"]; $i < $_GET["max-x"]+1; $i++){
-		echo '<tr><td>' . $i;
-		for ($k = $_GET["min-y"]; $k < $_GET["max-y"]+1; $k++){		
-		echo '<td>' . $i*$k;
+	if(run === true)
+	{
+		for($j = $_GET["min-y"]; $j < $_GET["max-y"]+1; $j++){
+			echo '<td>' . $j;
 		}
+		for ($i = $_GET["min-x"]; $i < $_GET["max-x"]+1; $i++){
+			echo '<tr><td>' . $i;
+			for ($k = $_GET["min-y"]; $k < $_GET["max-y"]+1; $k++){		
+			echo '<td>' . $i*$k;
+			}
 
+		}
 	}
 	
 	
