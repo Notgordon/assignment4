@@ -18,4 +18,9 @@ Tasks: Started login.php
 
 Start: Fri, 6 Feb 2015 18:10:31 -0800
 End: Fri, 6 Feb 2015 21:11:00 -0800
-Tasks: Attampted to reset session counter but failed.
+Tasks: Attempted to reset session counter but failed.
+
+
+Start: Sun, 8 Feb 2015 11:20:03 -0800
+End: Fri, 6 Feb 2015 12:47:00 -0800
+Tasks: Reset session counter fixed. Finishing touches on the rest.
