@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	echo 'Click <a href="http://people.oregonstate.edu/~rechstee/cs290/assignment4/content1.php?' . SID . '">here<a/> to return to content1.';
+	echo 'Click <a href="http://web.engr.oregonstate.edu/~rechstee/assignment4/content1.php' . SID . '">here<a/> to return to content1.';
 ?>
 <html>
 <body>

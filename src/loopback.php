@@ -34,7 +34,7 @@ foreach($keyarray as $key => $value) {
 	}
 
 
-$myJSON = array('type'=>$type, 'parameters'=>$p
+$myJSON = array('type'=>$type, 'parameters'=>$keyarray // I used a non associative array and called p. This is why I had brackets!
 );
 
 echo json_encode($myJSON);

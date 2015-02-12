@@ -1,0 +1,3 @@
+When making a query to insert the movie no prepared statement
+content1: When they clikc the button, content 1 saves that user name into the session variable. However when coming back check
+to see if username exists in the session. 
